@@ -67,7 +67,6 @@ function checkInput() {
 }
 
 function enterKey(event) {
-  console.log(event)
   if (event.key === "Enter") {
     checkWeather(searchBox.value);
   }
