@@ -28,6 +28,7 @@ body {
     margin: 100px auto 0;
     padding: 40px 35px;
     text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .search {
