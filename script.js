@@ -56,6 +56,8 @@ function loadIconOnDisplay(data) {
     weatherImage.src = "images/rain.png";
   } else if (data.weather[0].main === "Wind") {
     weatherImage.src = "images/wind.png";
+  } else {
+    weatherImage.src = "images/no-image.png";
   }
 }
 
